@@ -1,0 +1,4 @@
+TERMINOS Y CONDICIONES
+Estos son los terminos y condiciones desde un archivo de texto.
+
+Puedes agregar tu propio archivo utilizando el metodo estatico leerArchivo() de la clase Archivo contenido en el mismo paquete y enviar el contenido con el metodo setTextoTerminos().
