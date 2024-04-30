@@ -116,6 +116,53 @@ Y vemos como se ha corregido y ya podemos ocupar nuestro proyecto.
 
 ![WhatsApp Image 2024-04-29 at 10 23 58 PM](https://github.com/WilverAFS/mensajeTerminos/assets/168376977/7255a059-b858-4339-8d39-1634f3b81daf)
 
+## Implementacion 
+
+Pasamos a la implementacion, en la cual debemos crear el .JAR para usar nuestro componente.
+Para hacer esto lo que debemos hacer es una vez creado el .jar nos dirigimos a la parte de componentes de NetBeans, le damos click derecho y seleccionamos Palette Manager.
+
+![WhatsApp Image 2024-04-29 at 10 24 34 PM (1)](https://github.com/WilverAFS/mensajeTerminos/assets/168376977/6e03f198-c691-48f1-86a0-db11c0929dbb)
+
+
+Seleccionamos Add from JAR.
+
+![WhatsApp Image 2024-04-29 at 10 24 50 PM](https://github.com/WilverAFS/mensajeTerminos/assets/168376977/e7eb2f7d-3672-42c1-b68a-a5a1ec0655d0)
+
+
+Buscamos la carpeta.
+
+![WhatsApp Image 2024-04-29 at 10 26 22 PM](https://github.com/WilverAFS/mensajeTerminos/assets/168376977/8bbb8d74-ceff-4403-a458-aadddea4c42e)
+
+
+Una vez encontrada, seleccionamos la carpeta de Dist la cual contendra el .JAR.
+
+![WhatsApp Image 2024-04-29 at 10 27 21 PM](https://github.com/WilverAFS/mensajeTerminos/assets/168376977/e00b04fd-a69f-4c4d-bc5e-86cd89d68102)
+
+
+Seleccionamos el .JAR y le damos a Next.
+
+![WhatsApp Image 2024-04-29 at 10 27 52 PM](https://github.com/WilverAFS/mensajeTerminos/assets/168376977/f2f453a4-032a-42bc-b78e-fddd5dd4fa4d)
+
+
+Seleccionamos PanelTC y le damos a Next.
+
+![WhatsApp Image 2024-04-29 at 10 28 18 PM](https://github.com/WilverAFS/mensajeTerminos/assets/168376977/8ef43f00-67b3-4a07-8904-9a3272c871c5)
+
+
+Ahora lo guardaremos en la carpeta de Beans, por lo cual la seleccionamos y le damos a Finish.
+
+![WhatsApp Image 2024-04-29 at 10 28 39 PM](https://github.com/WilverAFS/mensajeTerminos/assets/168376977/69ef9d32-11b5-4f0e-9dd4-d02d746a897e)
+
+
+Como podemos observar, ya nos aparece nuestro componente.
+
+![WhatsApp Image 2024-04-29 at 10 29 54 PM](https://github.com/WilverAFS/mensajeTerminos/assets/168376977/d63fa7e4-8b78-4abe-b422-2bbd3ded0cdf)
+
+
+Y ya podemos empezar a usarlo a nuestro gusto.
+
+![WhatsApp Image 2024-04-29 at 10 31 10 PM](https://github.com/WilverAFS/mensajeTerminos/assets/168376977/2077e1fe-56df-4f7e-b2ab-11f602fe8ce9)
+
 
 
 ## Funcionamiento
