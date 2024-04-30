@@ -55,7 +55,7 @@ Esta es la clase principal y contiene el elemento grafico de tipo JPanel.
 #### Metodos
 
 ## Instalacion
-![visalogo](https://github.com/WilverAFS/mensajeTerminos/assets/168376977/b966dba8-a770-4ed9-92ba-37e0559426b3)
+
 ## Implementacion
 
 ## Funcionamiento
