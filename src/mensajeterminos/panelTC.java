@@ -4,7 +4,8 @@
  */
 package mensajeterminos;
 
-import ElementosVisuales.dialogoMensaje;
+import mensajeterminos.recursos.Archivo;
+//import ElementosVisuales.dialogoMensaje;
 import java.awt.Color;
 import java.awt.Cursor;
 import javax.swing.JButton;
@@ -41,7 +42,7 @@ public class panelTC extends javax.swing.JPanel {
     public String getTextoTerminos(){ return textoTerminos;}
     public String getTitulo(){return titulo;}
     
-    public JButton getBoton(){ return btnAceptarTerminos;}
+    public JButton getBoton(){ return btnAceptarTerminos1;}
     
     public void setTitulo(String titulo){ this.titulo = titulo; lblTerminos.setText(titulo);}
     public void setTextoTerminos(String texto){textoTerminos=texto; terminos.setTextoMensaje(texto);}
@@ -64,7 +65,7 @@ public class panelTC extends javax.swing.JPanel {
 
         ckbTerminos = new javax.swing.JCheckBox();
         lblTerminos = new javax.swing.JLabel();
-        btnAceptarTerminos = new ElementosVisuales.BtnAceptar();
+        btnAceptarTerminos1 = new mensajeterminos.BtnAceptar();
 
         ckbTerminos.setText("HE LEIDO Y ACEPTO");
         ckbTerminos.addActionListener(new java.awt.event.ActionListener() {
@@ -87,10 +88,10 @@ public class panelTC extends javax.swing.JPanel {
             }
         });
 
-        btnAceptarTerminos.setEnabled(false);
-        btnAceptarTerminos.addActionListener(new java.awt.event.ActionListener() {
+        btnAceptarTerminos1.setEnabled(false);
+        btnAceptarTerminos1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnAceptarTerminosActionPerformed(evt);
+                btnAceptarTerminos1ActionPerformed(evt);
             }
         });
 
@@ -106,7 +107,7 @@ public class panelTC extends javax.swing.JPanel {
                         .addComponent(lblTerminos))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(103, 103, 103)
-                        .addComponent(btnAceptarTerminos, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(btnAceptarTerminos1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(29, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -116,16 +117,17 @@ public class panelTC extends javax.swing.JPanel {
                     .addComponent(ckbTerminos)
                     .addComponent(lblTerminos))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btnAceptarTerminos, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(btnAceptarTerminos1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
     private void ckbTerminosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ckbTerminosActionPerformed
         // TODO add your handling code here:
         if (ckbTerminos.isSelected()){ 
-            btnAceptarTerminos.setEnabled(true);        //Habilitar el boton solo si se marca la casilla
+            btnAceptarTerminos1.setEnabled(true);        //Habilitar el boton solo si se marca la casilla
         } else {
-            btnAceptarTerminos.setEnabled(false);       //Desabilita el boton si la casilla no es marcada
+            btnAceptarTerminos1.setEnabled(false);       //Desabilita el boton si la casilla no es marcada
         }
     }//GEN-LAST:event_ckbTerminosActionPerformed
 
@@ -145,16 +147,20 @@ public class panelTC extends javax.swing.JPanel {
         lblTerminos.setBackground(this.getBackground());
         lblTerminos.setCursor(this.getCursor());
     }//GEN-LAST:event_lblTerminosMouseExited
+    
 
-    private void btnAceptarTerminosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAceptarTerminosActionPerformed
+    private void btnAceptarTerminos1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAceptarTerminosActionPerformed
         // TODO add your handling code here:
         JOptionPane.showMessageDialog(null, "Registrado existosamente", "Registro", 1);
         estado=true;
     }//GEN-LAST:event_btnAceptarTerminosActionPerformed
+    // TODO add your handling code here:
+
+
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private ElementosVisuales.BtnAceptar btnAceptarTerminos;
+    private mensajeterminos.BtnAceptar btnAceptarTerminos1;
     private javax.swing.JCheckBox ckbTerminos;
     private javax.swing.JLabel lblTerminos;
     // End of variables declaration//GEN-END:variables

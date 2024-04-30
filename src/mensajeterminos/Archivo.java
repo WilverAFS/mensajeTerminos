@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package mensajeterminos;
+package mensajeterminos.recursos;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -13,6 +13,7 @@ import java.io.InputStreamReader;
  * @author Wilver
  */
 public  class Archivo {
+    /**
     private String nombreArchivo;
     private int tamañoKb;
     private String tipo;
@@ -27,7 +28,7 @@ public  class Archivo {
     public void setTamañoKb(int tamañoKb) {  this.tamañoKb = tamañoKb;    }
     public void setRutaArchivo(String rutaArchivo) {   this.rutaArchivo = rutaArchivo;    }
     public void setNombre(String nombre) {  this.nombreArchivo = nombre;    }
-    
+    */
     
     //Metodo que devuelve el contenido de un archivo apartir de su ruta
     public static String leerArchivo(String rutaArchivo) {
@@ -49,11 +50,7 @@ public  class Archivo {
         return contenido.toString();
     }
     
-    
-    
-    
-    
-    
+   
 
     //metodo principal de prueba
     public static void main(String[] args) {
