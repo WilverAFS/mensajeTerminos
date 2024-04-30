@@ -1,4 +1,5 @@
 # Elemento visual mensajeTerminos
+
 ## Descripcion
 <p>
 El componente **mensajeTerminos** fue diseñado para mostrar un mensaje (terminos y condiciones) al dar clic sobre un texto, y habilitar un boton solo si se marca la casilla del mismo componente.
@@ -10,6 +11,7 @@ En el proyecto puedes encontra dos classes de las cuales "panelTC" es la princip
 <P>
 Tiene aplicaciones especificas, pues fue pensado para ser usado en algun tipo de registro en el que es necesario aceptar haber leido y estar de acuerdo con las politicas de privacidad de la app. Sin embargo puede ser modificado para contener otros tipos de mensajes como lo son contratos, politicas de privacidad, cookies, etc.
 </P>
+
 ## Caracteristicas
 
 Modificacion de propiedades intuitiva.
@@ -18,17 +20,24 @@ Permite integrarse facilmente a otros componente contenedores.
 **ADVERTENCIA:** Hay que tener cuidado con su ejecucion con el tipo de **layout** pues el componente es inicializado como *Absolute Layout*.
 
 ## Requisitos
+
 <p>
 - JDK 22, java version "22.0.1" o una version superior.
 - NetBeans IDE 20 ó algun IDE con soporte grafico.
+  
 **NOTA:** El proyecto fue creado con Windows 11.
 </p>
+
 ## API 
+
 ### Clase panelTC
+
 <p>
 Esta es la clase principal y contiene el elemento grafico de tipo JPanel.
 </p>
+
 #### Variables
+
 
 | Tipo  | Nombre  | Descripcion  |
 | :------------ |---------------| -----|
@@ -41,6 +50,7 @@ Esta es la clase principal y contiene el elemento grafico de tipo JPanel.
 | :------------ |---------------| -----|
 | `panelTC`      | `()` | Crea el componente con los valores predeterminados en todas sus variables.|
 | `panelTC`     |  `(String titulo, String textoTerminos)`        |  Crea el componente asignado los valores recibidos a las variables `titulo` y `textoTerminos`. |
+
 #### Metodos
 -----
 | Tipo| Return  | Nombre  | Parametros  | Descripcion |
@@ -55,6 +65,8 @@ Esta es la clase principal y contiene el elemento grafico de tipo JPanel.
 |`public`| `void`  | `setTtitulo`  | `(String titulo)` |  Modifica el contenido de la variable `terminos`. |
 |`public`| `void`     |  `setTextoTerminos`  | `(String texto)` |  Modifica el contenido de la variable `textoTerminos` y en consecuencia el mensaje. |
 |`public`| `void`     | `setArchivo`        |  `(String ruta)`  |  Modifica el contenido de la variable `textoTerminos` por el contenido del archivo .txt  en la ruta especificada y asu vez el mensaje.  |
+
+
 ### Clase Archivo
 
 
