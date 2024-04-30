@@ -1,11 +1,11 @@
 # Elemento visual mensajeTerminos
 
 ## Descripcion
-<p>
+
 El componente **mensajeTerminos** fue diseñado para mostrar un mensaje (terminos y condiciones) al dar clic sobre un texto, y habilitar un boton solo si se marca la casilla del mismo componente.
 Este elemento visual es un componete de tipo `JPanel` que hace uso de otros componentes como `JLabel` y `JButton`.
 En el proyecto puedes encontra dos classes de las cuales "panelTC" es la principal y la clase "Archivo" es una clase secundaria de ayuda para implementar cierta funcionalidad con archivos.
-</p>
+
 
 ## Usos
 <P>
