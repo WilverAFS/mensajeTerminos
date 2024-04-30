@@ -116,8 +116,7 @@ Y vemos como se ha corregido y ya podemos ocupar nuestro proyecto.
 
 ![WhatsApp Image 2024-04-29 at 10 23 58 PM](https://github.com/WilverAFS/mensajeTerminos/assets/168376977/7255a059-b858-4339-8d39-1634f3b81daf)
 
-## Implementacion
-Imagenes
+
 
 ## Funcionamiento
 Para conocer mas acerca de este elemento vea el video: --> [Componente mensajeTerminos](https://youtu.be/j5lzZMBQiAQ?si=3cRFS9V3Ml82ZRO7 "Componente mensajeTerminos")
